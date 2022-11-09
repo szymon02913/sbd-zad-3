@@ -1,0 +1,5 @@
+SELECT FROM products WHERE Price BETWEEN 10 AND 20;
+SELECT FROM products WHERE Price NOT BETWEEN 10 AND 20;
+SELECT FROM products WHERE category_id IN (1,2,3);
+SELECT FROM products WHERE shipper_id IN (1,2,3);
+SELECT FROM products WHERE price BETWEEN 10 AND 15  
